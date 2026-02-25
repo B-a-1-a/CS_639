@@ -1,0 +1,17 @@
+[project]
+name = "cs639-hw1"
+version = "0.1.0"
+description = "CS 639 HW1 feed-forward neural network from scratch"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy>=1.26",
+    "pandas>=2.2",
+    "matplotlib>=3.8",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.uv]
+package = false
